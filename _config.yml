@@ -1,28 +1,28 @@
 # ----
 # Site
 
-title: Edition Template
-url: "https://long-pig.cloudvent.net"
+title: 어떻게해..?
+url: "https://docs.ql.gl"
 baseurl:
 google_analytics_key:
 show_full_navigation: true
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product documentation template for Jekyll.
+description: HOW TO DO ???? ANSWER FOR YOU
 author:
-  name:
-  email:
+  name: KUUWANGE
+  email: admin@ql.gl
   twitter: # twitter username without the @ symbol
 social:
-  name: Edition Template
+  name: WHO AM I?
   links:
-    - https://github.com/CloudCannon/edition-jekyll-template
+    - https://github.com/shellcodesniper
 
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: Asia/Seoul
 
 permalink: pretty
 
