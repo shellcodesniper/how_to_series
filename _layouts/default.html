@@ -46,16 +46,24 @@
 				</ul>
 
 				<ul>
-          {% assign grouped = site.docs | group_by: 'category' %}
-					{% for group in grouped %}
-						<li class="nav-item top-level {% if group.name == page.category %}current{% endif %}">
-							{% assign items = group.items | sort: 'order' %}
-							<a href="{{ site.baseurl }}{{ items.first.url }}">{{ group.name }}</a>
+          {% assign categories = site.docs | group_by: 'category' %}
+					{% for category in categories %}
+						<li class="nav-item top-level {% if category.name == page.category %}current{% endif %}">
+							<a href="#"">{{ category.name }}</a>
+							{% assign sub_groups = category.items | group_by: 'sub_category' %}
+							{% for sub_group in sub_groups %}
 							<ul>
-								{% for item in items %}
-									<li class="nav-item {% if item.url == page.url %}current{% endif %}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
-								{% endfor %}
+								<li class="nav-item sub-level {% if sub_group.name == page.sub_category %}current{% endif %}">
+									{% assign items = sub_group.items | sort: 'order' %}
+									<a href="{{ site.baseurl }}{{ items.first.url }}">{{ sub_group.name }}</a>
+									<ul>
+										{% for item in items %}
+											<li class="nav-item item {% if item.url == page.url %}current{% endif %}"><a class="item" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+										{% endfor %}
+									</ul>
+								</li>
 							</ul>
+							{% endfor %}
 						</li>
 					{% endfor %}
 				</ul>

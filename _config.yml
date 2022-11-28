@@ -1,10 +1,10 @@
 # ----
 # Site
 
-title: 어떻게해..?
+title: HOW-TO series
 url: "https://docs.ql.gl"
 baseurl:
-google_analytics_key:
+google_analytics_key: 
 show_full_navigation: true
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
@@ -58,6 +58,7 @@ defaults:
         type: Article
       _comments:
         category: Group navigation links with this field
+        sub_category: Sub navigation links with this field
         order: Used to sort links in the navigation
       _options:
         content:
