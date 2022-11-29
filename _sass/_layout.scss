@@ -250,16 +250,31 @@ nav > ul {
 		display: block;
 	}
 
+
 	&.current > a,
 	> a:active,
 	> a:hover {
-		color: #111;
+		color: #333;
 	}
 
 	&.top-level > a {
 		line-height: 1.5;
-		font-weight: 600;
+		font-weight: 800;
 		padding-left: $space;
+	}
+
+	&.sub-level > a {
+		line-height: 1.5;
+		font-weight: 600;
+		padding-left: $space * 2;
+	}
+
+	&.item {
+		color: #666;
+		text-decoration: none;
+		font-size: 1.4rem;
+		padding-left: $space * 2.2 !important;
+		display: block;
 	}
 }
 

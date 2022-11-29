@@ -1,6 +1,7 @@
 ---
 title: 도커를 이용한 Nestjs 배포 
 category: nestjs
+sub_category: docker
 order: 1
 id: 2
 # permalink: /NestJs/docker
