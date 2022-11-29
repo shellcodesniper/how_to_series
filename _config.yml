@@ -1,23 +1,20 @@
 # ----
 # Site
 
-title: 어떻게해..?
-url: "https://docs.ql.gl"
+title: "[HOW TO?] 설명이 어려운 개발자"
+url: "https://bdev.io"
 baseurl:
 google_analytics_key:
 show_full_navigation: true
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: HOW TO DO ???? ANSWER FOR YOU
+description: "설명이 힘든 개발자가 설명이 힘든 개발자를 위해 코드로 표현하는법"
 author:
   name: KUUWANGE
-  email: admin@ql.gl
+  email: shellcodesniper@gmail.com
+  affilination: Caramella Inc.
   twitter: # twitter username without the @ symbol
-social:
-  name: WHO AM I?
-  links:
-    - https://github.com/shellcodesniper
 
 # -----
 # Build
@@ -49,6 +46,7 @@ defaults:
       path: ""
     values:
       layout: default
+      image: "https://bdev-s3.s3.ap-northeast-2.amazonaws.com/pics/20221129145508fOASxH_프로필_쿠왕.png"
   -
     scope:
       path: ""
@@ -70,6 +68,14 @@ defaults:
     values:
       _comments:
         type: Marks the impact of this release
+  -
+    scope:
+      path: "/whoami"
+    values:
+      seo:
+        type: Person
+      _comments:
+        type: Who aam I?
 
 # -----------
 # CloudCannon
