@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: "[HOW TO?] 설명이 어려운 개발자"
+title: "[HOW TO?] 개발러의 기록 노트"
 url: "https://bdev.io"
 baseurl:
 google_analytics_key: 
@@ -9,7 +9,7 @@ show_full_navigation: true
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: "설명이 힘든 개발자가 설명이 힘든 개발자를 위해 코드로 표현하는법"
+description: "설명이 힘든 개발자가 설명이 힘든 개발자를 위해 코드로 표현하는법. 꾸짖을 갈!"
 author:
   name: KUUWANGE
   email: shellcodesniper@gmail.com
