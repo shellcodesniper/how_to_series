@@ -29,3 +29,5 @@ id: 6
 [Z30_KERNEL][https://bdev-s3.s3-ap-northeast-2.amazonaws.com/uploads/Z30_10.3.03.3216_STA100-1-2-3-4-5-6.7z.7z%EC%9D%98%20%EC%82%AC%EB%B3%B8]
 
 [DBBT][https://bdev-s3.s3-ap-northeast-2.amazonaws.com/uploads/DBBT3.1.0.1.rar]
+
+MAYBE NEED DRIVERs..
